@@ -40,9 +40,13 @@
           <van-col span="8" class="van-col van-col--2">确认</van-col>
         </van-row>
       </van-dropdown-item>
-      <van-dropdown-item v-model="value4" :options="option4" title="筛选">
-        <van-popup v-model="show" position="right" :style="{ height: '60%' }" />
-      </van-dropdown-item>
+      <van-dropdown-item v-model="value4" :options="option4" title="筛选" />
+      <van-popup
+        position="right"
+        style="height: 100%; width: 70%"
+        v-model="flag"
+      >
+      </van-popup>
 
       <!-- <van-dropdown-item title="筛选" ref="item">
         <van-cell center title="包邮">
