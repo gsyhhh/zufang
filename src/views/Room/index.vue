@@ -42,7 +42,6 @@
       </van-dropdown-item>
       <van-dropdown-item v-model="value4" :options="option4" title="筛选">
         <van-popup v-model="show" position="right" :style="{ height: '60%' }" />
-
       </van-dropdown-item>
 
       <!-- <van-dropdown-item title="筛选" ref="item">
