@@ -1,14 +1,14 @@
 <template>
-<div>
-  <!-- 一级占位符 -->
-    <router-view></router-view>
-
-</div>
+  <div>
+    <van-nav-bar title="注册账号" @click-left="$router.back()">
+      <van-icon name="arrow-left" slot="left" />
+    </van-nav-bar>
+  </div>
 </template>
 
 <script>
 export default {
-  created () {},
+  created () { },
   data () {
     return {}
   },
@@ -21,5 +21,4 @@ export default {
 </script>
 
 <style scoped>
-
 </style>

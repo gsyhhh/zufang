@@ -1,8 +1,6 @@
 <template>
 <div>
-  <!-- 一级占位符 -->
-    <router-view></router-view>
-
+    公告
 </div>
 </template>
 
